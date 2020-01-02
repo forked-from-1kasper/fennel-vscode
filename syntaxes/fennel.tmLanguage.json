@@ -18,7 +18,7 @@
             "name": "constant.language.fennel"
         },
         {
-            "match": "[[:space:]\\(\\)\\[\\]\\{\\}](:\\S+)[[:space:]\\(\\)\\[\\]\\{\\}]",
+            "match": "[[:space:]\\(\\)\\[\\]\\{\\}:](:[^[:space:]\\(\\)\\[\\]\\{\\}]+)[[:space:]\\(\\)\\[\\]\\{\\}]",
             "captures": {
                 "1": { "name": "entity.name.tag.fennel" }
             }
