@@ -1,0 +1,31 @@
+{
+    "name": "fennel",
+    "displayName": "Fennel",
+    "version": "0.0.0",
+    "description": "Fennel syntax highlighting for Visual Studio Code",
+    "publisher": "siegmentationfault",
+    "categories": [
+        "Programming Languages"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/forked-from-1kasper/neekhoja"
+    },
+    "engines": {
+        "vscode": "^1.10.1"
+    },
+    "contributes": {
+        "languages": [{
+            "id": "Fennel",
+            "extensions": [
+                ".fnl"
+            ],
+            "configuration": "./fennel-configuration.json"
+        }],
+        "grammars": [{
+            "language": "Fennel",
+            "scopeName": "source.fennel",
+            "path": "./syntaxes/fennel.tmLanguage.json"
+        }]
+    }
+}
