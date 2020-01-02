@@ -1,5 +1,7 @@
 [Fennel](https://fennel-lang.org/) syntax highlighting for Visual Studio Code.
 
+![Screenshot](screenshot.png)
+
 # Installation
 
 ```bash
