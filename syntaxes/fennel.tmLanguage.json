@@ -38,7 +38,7 @@
             }
         },
         {
-            "match": "[[:space:]\\(\\)\\[\\]\\{\\}](comment|hashfn|let|each|for|while|do|match|if|when|lambda|λ|or|and|not|require-macros|require|include|list|sym|list\\?|sym\\?|table\\?|sequence\\?|gensym|varg\\?|multi-sym\\?|get-scope|in-scope\\?|eval-compiler|macros|macro|doto|values|partial|length|lua)[[:space:]\\(\\)\\[\\]\\{\\}]",
+            "match": "[[:space:]\\(\\)\\[\\]\\{\\}](pick-values|with-open|where|comment|hashfn|let|each|for|while|do|faccumulate|accumulate|fcollect|icollect|collect|case-try|match-try|case|match|if|when|lambda|λ|or|and|not|lshift|rshift|band|bor|bxor|bnot|bnot\\:|import-macros|require-macros|require|include|list|sym|list\\?|sym\\?|table\\?|sequence\\?|gensym|varg\\?|multi-sym\\?|get-scope|in-scope\\?|comment\\?|view|assert-compiler|eval-compiler|macroexpand|macrodebug|macros|macro|doto|values|partial|length|lua)[[:space:]\\(\\)\\[\\]\\{\\}]",
             "captures": {
                 "1": { "name": "keyword.control.fennel" }
             }
